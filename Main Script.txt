@@ -15,8 +15,8 @@ local antiAFKConnection
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lkjhg969/ffdsf/refs/heads/main/hgfhj", true))()
 
-local window = library:AddWindow("Silence | Main", {
-    main_color = Color3.fromRGB(138, 0, 0),
+local window = library:AddWindow("SP ON TOP| BY GUY", {
+    main_color = Color3.fromRGB(0, 0, 0),
     min_size = Vector2.new(600, 630),
     can_resize = false,
 })
@@ -83,10 +83,10 @@ local StatsTab = window:AddTab("Stats")
 local infoTab = window:AddTab("Info")
 KillingTab:Show()
 
-infoTab:AddLabel("Made by Henne ♥️").TextSize = 20
-infoTab:AddLabel("Official Discord: discord.gg/silencev1")
+infoTab:AddLabel("Made by guy ♥️").TextSize = 20
+infoTab:AddLabel("Official Discord: discord.gg/XXgGgnrpj")
 infoTab:AddButton("Copy Discord Invite", function()
-    local link = "https://discord.gg/9eFf93Kg8D"
+    local link = "https://discord.gg/XXgGgnrpj"
     if setclipboard then
         setclipboard(link)
         game.StarterGui:SetCore("SendNotification", {
