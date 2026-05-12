@@ -46,8 +46,8 @@ Title.Name = "Title"
 Title.Size = UDim2.new(1, 0, 0, 40)
 Title.Position = UDim2.new(0, 0, 0, 0)
 Title.BackgroundTransparency = 1
-Title.Text = "Silence | Loader"
-Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.Text = "SP ON TOP | Loader"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
 Title.Font = Enum.Font.GothamBold
 Title.TextSize = 24
 Title.Parent = Frame
@@ -118,7 +118,7 @@ local farmingButton = createButton("Execute Farming Script", UDim2.new(0, 20, 0,
 
 mainButton.MouseButton1Click:Connect(function()
     closeUI()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/imhenne187/SilenceV2/refs/heads/main/src/SilenceV2Main.luau"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/most22902-ai/-SP1/refs/heads/main/Main%20Script.txt"))()
 end)
 
 farmingButton.MouseButton1Click:Connect(function()
